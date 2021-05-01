@@ -1,6 +1,6 @@
 # yolov5-face-landmarks-opencv
 yolov5检测人脸和关键点，只依赖opencv库就可以运行，程序包含C++和Python两个版本的
-本套程序根据https://github.com/deepcam-cn/yolov5-face里提供的训练模型.pt文件。转换成onnx文件，
+本套程序根据https://github.com/deepcam-cn/yolov5-face 里提供的训练模型.pt文件。转换成onnx文件，
 然后使用opencv读取onnx文件做前向推理，onnx文件从百度云盘下载，下载
 链接：https://pan.baidu.com/s/14qvEOB90CcVJwVC5jNcu3A 
 提取码：duwc 
