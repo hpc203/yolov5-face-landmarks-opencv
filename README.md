@@ -14,3 +14,7 @@ yolov5检测人脸和关键点，只依赖opencv库就可以运行，程序包�
 我之所以发布这个文件，是因为在此之前我发布的一套使用opencv部署yolov5的程序里，转换生成onnx需要经过读取.pt文件生成.pth
 文件和编写yolov5.py文件这两个步骤，这个挺麻烦的。然而最近我发现其实可以在读取.pt文件后直接生成.onnx文件的，这样就简化
 了生成onnx文件的流程。
+
+此外，我看到github上deepcam-cn更新了yolov5-face的程序，我的使用opencv做yolov5-face推理的程序也做了更新，
+更新的程序发布在
+https://github.com/hpc203/yolov5-face-landmarks-opencv-v2
